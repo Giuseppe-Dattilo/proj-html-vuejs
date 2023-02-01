@@ -1,5 +1,5 @@
 <script>
-import AppButton from './AppButton.vue';
+import AppButton from '../AppButton.vue';
 export default {
     name: 'SectionJazz',
     components: { AppButton },
@@ -28,13 +28,13 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/mixins' as *;
+@use '../../assets/scss/partials/mixins' as *;
 
 .jazz {
     @include center_flex;
     flex-direction: column;
     background-color: black;
-    min-height: 700px;
+    min-height: 650px;
     background-size: cover;
 
     h1 {

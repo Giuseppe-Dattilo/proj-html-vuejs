@@ -1,5 +1,5 @@
 <script>
-import AppButton from './AppButton.vue';
+import AppButton from '../AppButton.vue';
 export default {
     name: 'SectionVideo',
     components: { AppButton },
@@ -22,13 +22,13 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/mixins' as *;
+@use '../../assets/scss/partials/mixins' as *;
 
 .video {
     @include center_flex;
     flex-direction: column;
-    background-image: url(../assets/img/jumbotron.png);
-    min-height: 700px;
+    background-image: url(../../assets/img/jumbotron.png);
+    min-height: 650px;
     background-size: cover;
 
     h1 {

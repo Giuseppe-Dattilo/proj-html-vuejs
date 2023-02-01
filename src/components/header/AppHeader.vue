@@ -6,9 +6,6 @@ export default {
     components: { SectionVideo, SectionJazz },
     data() {
         return {
-
-            description: 'asòkdjghaòodfghasòodgiha',
-
             links: [
                 {
                     text: 'home',
@@ -57,7 +54,7 @@ export default {
         <nav>
             <!-- left nav -->
             <figure class="mb-0">
-                <a href="#"><img src="../assets/img/Logo.png" alt="lyricmusic"></a>
+                <a href="#"><img src="../../assets/img/Logo.png" alt="lyricmusic"></a>
             </figure>
 
             <!-- right nav -->
@@ -74,7 +71,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/mixins' as *;
+@use '../../assets/scss/partials/mixins' as *;
 
 nav {
     display: flex;

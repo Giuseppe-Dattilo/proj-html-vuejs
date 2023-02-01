@@ -9,7 +9,7 @@ export default {
 
 <template>
     <div class="card">
-        <img :src="video.thumb" :alt="video.videos">
+        <img role="button" :src="video.thumb" :alt="video.videos">
         <h3 class="mb-0">{{ video.videos }}</h3>
         <div class="sub-icon d-flex align-items-center justify-content-center">
             <h6> {{ video.sub }}</h6>
@@ -49,7 +49,7 @@ export default {
                     filter: invert(100%);
 
                     &:hover {
-                        filter: invert(70%);
+                        filter: invert(0.5) sepia(1) saturate(5) hue-rotate(10deg);
                     }
 
                 }
