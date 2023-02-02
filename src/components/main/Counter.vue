@@ -55,8 +55,6 @@ export default {
             width: 40px;
             margin-bottom: 20px;
             filter: invert(100%);
-
-            // filter: invert(0.5) sepia(1) saturate(5) hue-rotate(10deg);
         }
 
         h2 {

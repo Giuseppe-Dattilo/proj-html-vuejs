@@ -51,6 +51,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partials/variables' as *;
+
 .prod-card {
     background-color: black;
     color: white;
@@ -59,7 +61,7 @@ export default {
 
     h6 {
         font-size: 15px;
-        color: #f2870c;
+        color: $red;
     }
 
     h2 {

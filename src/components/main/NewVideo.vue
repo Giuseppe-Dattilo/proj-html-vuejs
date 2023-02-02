@@ -32,7 +32,7 @@ export default {
         margin-bottom: 20px;
         cursor: pointer;
 
-        filter: invert(0.5) sepia(1) saturate(5) hue-rotate(10deg);
+
     }
 
     h1 {

@@ -21,6 +21,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../../assets/scss/partials/variables' as *;
+
 .card {
     min-height: 450px;
     padding: 10px;
@@ -39,7 +41,7 @@ export default {
         margin: 13px 5px;
         width: 10px;
         height: 10px;
-        filter: invert(0.5) sepia(1) saturate(5) hue-rotate(10deg);
+        filter: invert(50%) sepia(50%) saturate(5) hue-rotate(300deg);
     }
 
     h3 {
@@ -50,7 +52,7 @@ export default {
     }
 
     h5 {
-        color: #f2870c;
+        color: $red;
         font-size: 13px;
         text-align: left;
         margin-top: 10px;

@@ -49,7 +49,7 @@ export default {
                     filter: invert(100%);
 
                     &:hover {
-                        filter: invert(0.5) sepia(1) saturate(5) hue-rotate(10deg);
+                        filter: invert(50%) sepia(50%) saturate(5) hue-rotate(300deg);
                     }
 
                 }

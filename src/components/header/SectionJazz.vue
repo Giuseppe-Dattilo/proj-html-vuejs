@@ -1,5 +1,5 @@
 <script>
-import AppButton from '../AppButton.vue';
+import AppButton from '../generics/AppButton.vue';
 export default {
     name: 'SectionJazz',
     components: { AppButton },
@@ -29,6 +29,7 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/mixins' as *;
+@use '../../assets/scss/partials/variables' as *;
 
 .jazz {
     @include center_flex;
@@ -45,7 +46,7 @@ export default {
     }
 
     h6 {
-        color: #f2870c;
+        color: $red;
         margin-bottom: 20px;
         font-size: 15px;
     }

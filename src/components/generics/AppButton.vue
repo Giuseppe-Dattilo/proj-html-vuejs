@@ -13,15 +13,17 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partials/variables' as *;
+
 button {
     padding: 7px 40px;
     background-color: transparent;
-    border: 1px solid #f2870c;
+    border: 1px solid $red;
     color: white;
     cursor: pointer;
 
     &:hover {
-        background-color: #f2870c;
+        background-color: $red;
     }
 }
 </style>

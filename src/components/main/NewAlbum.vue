@@ -1,5 +1,5 @@
 <script>
-import AppButton from '../AppButton.vue';
+import AppButton from '../generics/AppButton.vue';
 export default {
     name: 'NewAlbum',
     components: { AppButton },
@@ -25,6 +25,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partials/variables' as *;
+
 .new-album {
     display: flex;
     justify-content: center;
@@ -42,7 +44,7 @@ export default {
     }
 
     h6 {
-        color: #f2870c;
+        color: $red;
         font-size: 20px;
         font-weight: bolder;
         text-align: left;

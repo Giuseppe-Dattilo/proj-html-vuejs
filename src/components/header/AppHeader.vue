@@ -72,6 +72,7 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/mixins' as *;
+@use '../../assets/scss/partials/variables' as *;
 
 nav {
     display: flex;
@@ -102,11 +103,11 @@ ul {
             text-transform: uppercase;
 
             &.active {
-                color: #f2870c;
+                color: $red;
             }
 
             &:hover {
-                background-color: #f2870c;
+                background-color: $red;
                 color: white;
             }
 
